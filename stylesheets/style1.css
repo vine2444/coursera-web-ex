@@ -1,0 +1,66 @@
+
+	 span{
+     	box-sizing: border-box;
+     	width:20%;
+     	border: 4px solid black;
+     	position: absolute;
+     	left: 80%;
+     	background: red;
+     	font-weight: bold;
+     	margin-top:0;
+     	padding-top: 0;
+     	border-top: 0;
+     	border-right: 0;
+     	text-align: center;
+     }
+     section{
+     	box-sizing:border-box;
+     	border: 4px solid black;
+     	float: left;
+        position:relative;
+        padding: 4%;
+        margin: 1%;
+        background: gray;
+        padding-top: 0;
+        font-weight: bold;
+     }
+    .first > span{
+    	background: green;
+    }
+    .last > span{
+    	background: yellow;
+    }
+     div, body{
+     	box-sizing: border-box;
+     	width: 100%;
+     	padding: 0;
+     }
+     h1{
+     	text-align: center;
+     	font-size: 2em;
+     }
+     .last, .first , .second{
+     	width: 96%;
+     }
+    
+     @media (min-width: 768px){
+       .last{
+       	width: 96%;
+       
+       } 
+       .first, .second{
+       	width:47%;
+       }
+
+     }
+      @media (min-width: 991px){
+       .last{
+       	width: 31%;
+       
+       } 
+       .first, .second{
+       	width: 31%
+       }
+      
+     }
+	
